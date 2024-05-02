@@ -148,7 +148,7 @@ tr:nth-child(even) {
 }
 
 #registration {
-    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("imgs/signup.jpg");
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("signup.jpg");
     padding: 6vw 8vw;
     width: 100%;
     background-size: cover;
