@@ -172,3 +172,26 @@ i {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        max-width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .container .content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .gallery .box {
+        flex: 1 1 100%;
+    }
+}
+
+
