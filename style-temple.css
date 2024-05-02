@@ -97,6 +97,46 @@ h2 {
 .history p {
   line-height: 1.5;
 }
+
+.solo-img img {
+    width: 50%; /* Adjust size as needed */
+    margin-right: 20px; /* Add some spacing between the image and text */
+}
+
+.solo-img .content {
+    width: 50%; /* Adjust size as needed */
+}
+
+.solo-img .content h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.solo-img .content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.solo-img .content .price {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.solo-img .content .opening-hours {
+    margin-top: 20px;
+}
+
+.solo-img .content .opening-hours h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.solo-img .content .opening-hours p {
+    font-size: 16px;
+    color: #666;
+}
 .gallary .container {
   display: flex;
   flex-wrap: wrap;
