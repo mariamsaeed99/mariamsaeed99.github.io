@@ -151,11 +151,9 @@ tr:nth-child(even) {
 }
 
 #registration {
-    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("signup.jpg");
     padding: 6vw 8vw;
     width: 100%;
     background-size: cover;
-    height: 100%;
     background-position: center;
     display: flex;
     justify-content: space-between;
@@ -168,7 +166,7 @@ tr:nth-child(even) {
 }
 
 #registration .form {
-    background: #fff;
+    background: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity */
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -210,35 +208,42 @@ tr:nth-child(even) {
     background: #fff;
 }
 
+#map {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#map h5 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
 .map {
-    position: absolute;
-    top: calc(100% + 20px); 
-    left: 50%;
-    transform: translateX(-50%);
-    width: 90%; 
-    height: 300px;
+    width: 90%; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
     border: none;
+    margin: auto; /* Center horizontally */
 }
 
-p.map {
-  margin: auto; /* Center horizontally */
-  margin-top: 30vh; /* Adjust vertically */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (max-width: 475px) {
+    #registration {
+        padding: 4vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #registration .remainder .time {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 }
 
-#darkModeToggle {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 9999; /* Ensure it's above other content */
-}
-
-i {
-    font-size: 150px;
-    cursor: pointer;
-}
 
 
 @media (max-width:475px) {
