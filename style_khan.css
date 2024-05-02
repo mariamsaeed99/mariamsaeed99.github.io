@@ -10,7 +10,7 @@
 .main{
     padding: 100px 200px;
     color: rgb(255, 255, 255);
-    background: url(imgs/khan.jpg) no-repeat;
+    background: url(khan.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     min-height: 100vh;
