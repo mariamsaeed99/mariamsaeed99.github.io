@@ -139,11 +139,15 @@ h2 {
 .gallery .box {
     flex: 1 1 100%;
     margin: 1px;
+    height: 200px;
+    overflow: hidden;
+
 }
 
 .gallery .box img {
     width: 200%;
     height: auto;
+    object-fit: cover;
 }
 
 #map {
