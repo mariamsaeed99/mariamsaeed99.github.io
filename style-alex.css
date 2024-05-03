@@ -54,6 +54,7 @@ home p {
 #features {
     padding: 5vw 8vw 0 5vw;
     text-align: center;
+    background-color: beige;
 }
 
 #features .fea-base {
