@@ -220,6 +220,7 @@ tr:nth-child(even) {
 #map h5 {
     font-size: 2em;
     margin-bottom: 10px;
+    margin-top:10px;
 }
 
 .map {
