@@ -153,13 +153,16 @@ tr:nth-child(even) {
 #registration {
     padding: 6vw 8vw;
     width: 100%;
-    background-size: cover;
-    background-position: center;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    background-image: linear-gradient(rgba(99, 112, 168, 0.5), rgba(81, 91, 233, 0.5)), url("signup.jpeg");
+    background-size: cover;
+    background-position: center;
 }
+
 
 #registration .remainder h1 {
     color: #fff;
