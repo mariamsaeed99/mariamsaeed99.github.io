@@ -33,17 +33,14 @@ fdocument.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // If all validation passes, allow the form to submit
         form.submit();
     });
 
     function isValidEmail(email) {
-        // You can implement your email validation logic here
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
 
     function isValidPhone(phone) {
-        // You can implement your phone number validation logic here
         return /^\d{10}$/.test(phone);
     }
 });
